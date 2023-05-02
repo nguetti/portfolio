@@ -316,8 +316,7 @@ span.wrap{
 
 /*******  PROJECTS  ********/ 
 .project {
-  padding: 120px 0;
-  z-index: -1;
+  padding: 80px 0;
   position: relative;
   background-color: black;
 }
@@ -443,7 +442,7 @@ span.wrap{
 }
 
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
