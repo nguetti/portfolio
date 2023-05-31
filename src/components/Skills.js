@@ -1,6 +1,20 @@
+import reactIcon from "../assets/img/react-icon.svg";
+import javascriptIcon from "../assets/img/javascriptIcon.svg";
+import htmlIcon from "../assets/img/htmlIcon.svg";
+import cssIcon from "../assets/img/cssIcon.svg";
+import nodejsIcon from "../assets/img/nodejsIcon.svg";
+import gitIcon from "../assets/img/gitIcon.svg";
+import agileIcon from "../assets/img/agileIcon.jpg";
+import apiIcon from "../assets/img/apiIcon.svg";
+
+import sequelizeIcon from "../assets/img/sequelizeIcon.svg";
+import mysqlIcon from "../assets/img/mysqlIcon.svg";
+
+
+
 import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+ import meter2 from "../assets/img/meter2.svg";
+ import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -35,23 +49,48 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>I have knowledge about the following tools:</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={javascriptIcon} alt="Image" />
+                                <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={reactIcon} alt="Image" />
+                                <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={htmlIcon} alt="Image" />
+                                <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={cssIcon} alt="Image" />
+                                <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={nodejsIcon} alt="Image" />
+                                <h5>Node Js.</h5>
+                            </div>
+                            <div className="item">
+                                <img src={gitIcon} alt="Image" />
+                                <h5>GIT</h5>
+                            </div>
+                            <div className="item">
+                                <img src={mysqlIcon} alt="Image" />
+                                <h5>MySQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={sequelizeIcon} alt="Image" />
+                                <h5>Sequelize</h5>
+                            </div>
+                            
+                            <div className="item">
+                                <img src={apiIcon} alt="Image" />
+                                <h5>APIs</h5>
+                            </div>
+                            <div className="item">
+                                <img src={agileIcon} alt="Image" />
+                                <h5>Agile Methodologies</h5>
                             </div>
                         </Carousel>
                     </div>

@@ -189,7 +189,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+.navbar-text a  {
+  color: #fff;
+}
 
+navbar-text a:focus, .navbar-text a:hover {
+  color:#121212
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -314,7 +320,7 @@ span.wrap{
   z-index: -4;
 }
 
-/*******  PROJECTS  ********/ 
+/* Projects */
 .project {
   padding: 80px 0;
   position: relative;
@@ -393,7 +399,9 @@ span.wrap{
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-}
+  max-width: 100%;
+  max-height: 300px;
+  }
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
